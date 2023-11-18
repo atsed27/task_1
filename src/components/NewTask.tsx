@@ -38,7 +38,7 @@ export function NewTask({ onClick }: Props) {
         />
         <footer>
           <button
-            className="w-20 h-14 border-none rounded-md bg-blue-950 cursor-pointer font-bold text-lg text-gray-100 flex flex-row sm:flex-col justify-center items-center gap-2 "
+            className="flex flex-row items-center justify-center w-20 ml-3 text-lg font-bold text-gray-100 border-none rounded-md rounded-lg cursor-pointer h-14 bg-blue-950 sm:flex-col "
             type="submit"
           >
             Add
