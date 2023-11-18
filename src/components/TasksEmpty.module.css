@@ -1,0 +1,28 @@
+.tasksEmpty {
+  border-top: 0.5px solid var(--gray-400);
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
+.tasksEmptyText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+}
+
+b {
+  font-size: 0.875rem;
+}
+
+@media (max-width: 280px) {
+  .tasksEmpty {
+    padding-top: 1.5rem;
+  }
+}
